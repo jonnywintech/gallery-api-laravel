@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "gallery-api",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "The skeleton application for the gallery framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
