@@ -24,7 +24,8 @@ class GalleryController extends Controller
         $galleries = $query
             ->orderBy('created_at', 'DESC')
             ->paginate(9);
-        return view('home', compact('galleries'));
+            // ->get();
+        return response()->json($galleries);
     }
 
     /**
